@@ -176,11 +176,24 @@ var moves = {
   // This hero will try really hard not to die.
   coward : function(gameData, helpers) {
     return helpers.findNearestHealthWell(gameData);
+  },
+
+
+  // The "Custom"
+  custom : function(gameData, helpers) {
+    var myHero = gameData.activeHero;
+    if (myHero.health < 10) {
+      return helpers.findNearestHealthWell(gameData);
+    } else {
+      return helpers.findNearestWeakerEnemy(gameData);
+    }
   }
+
+
  };
 
 //  Set our heros strategy
-var  move =  moves.selfishDiamondMiner;
+var  move =  moves.custom;
 
 // Export the move function here
 module.exports = move;
