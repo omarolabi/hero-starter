@@ -192,7 +192,7 @@ var moves = {
 
  };
 // Comment on hotfix
-
+//Adding a comment on master
 var  move =  moves.custom;
 
 // Export the move function here
