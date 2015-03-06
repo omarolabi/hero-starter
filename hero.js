@@ -192,7 +192,7 @@ var moves = {
 
  };
 // Comment on hotfix
-//  Set our heros strategy
+
 var  move =  moves.custom;
 // Comment on master
 // Export the move function here
