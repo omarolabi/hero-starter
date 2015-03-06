@@ -192,8 +192,8 @@ var moves = {
 
  };
 // Comment on hotfix
-//Adding a comment on master
+
 var  move =  moves.custom;
-// Adding a comment on hotfix
+
 // Export the move function here
 module.exports = move;
