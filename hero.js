@@ -191,7 +191,7 @@ var moves = {
 
 
  };
-
+// Comment on hotfix
 //  Set our heros strategy
 var  move =  moves.custom;
 
