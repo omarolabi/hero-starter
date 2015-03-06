@@ -193,7 +193,7 @@ var moves = {
  };
 
 //  Set our heros strategy
-var  move =  moves.custom;
+var  move =  moves.balanced;
 
 // Export the move function here
 module.exports = move;
